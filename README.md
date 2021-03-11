@@ -11,6 +11,4 @@
 
 6.The testing result is in the file named “Results.xlsx” and the picture named “Figure_1”.
 
-7.Reference:
-(1).https://baike.baidu.com/item/固定比例投资组合保险策略/9679457?fr=aladdin
-(2).https://blog.csdn.net/weixin_42848540/article/details/107300706
+7.Reference:https://baike.baidu.com/item/固定比例投资组合保险策略/9679457?fr=aladdin
