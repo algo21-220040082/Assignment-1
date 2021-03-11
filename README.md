@@ -1,4 +1,4 @@
-# Assignment-1
+# Assignment1
 1.Topic:Portfolio construction.
 
 2.Strategy:CPPI Strategy.
