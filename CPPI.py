@@ -34,13 +34,7 @@ def getData(filename):
 
 
 def outputQuantResult(Return, nav, trading_day_sum) :
-    """
-    输入经过该策略后的时间序列结果, 绘制收益图像
-    : param Return: 收益结果数据
-    : param nav: 总资产
-    : param trading_day_sum: 交易日总数
-    : return Results: Dataframe格式的年收益，年波动性，夏普比率，最大回撤
-    """
+    '''输入经过该策略后的时间序列结果, 绘制收益图像'''
     annual_return, annual_volatility, Sharpe, Maxdrawdown = [], [], [], []
     for i in range(len(Return)):
         df_return = pd.DataFrame(Return[i])
@@ -70,12 +64,8 @@ def outputQuantResult(Return, nav, trading_day_sum) :
 
 def getParameters(test_num=1, rate_type=0, trading_year=1, trading_day_per_year=244, rf=0.0015,
                   init_nav=1000000, adj_period=5, guarantee_rate=0.8, risk_multipler=2, risk_trading_fee_rate=0.006):
-    """
-    存储所需的固定金融参数初始化的数值
-
-    : param params: 与量化策略所需的参数有关
-    : return: 用字典存储各个金融参数
-    """
+    '''设定参数'''
+    
     parameters = {}
 
     parameters["test_num"] = test_num
